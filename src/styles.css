@@ -1,0 +1,81 @@
+body {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#score {
+  font-size: 200%;
+  font-family: 'Press Start 2P', cursive;
+  /* align-self: flex-start; */
+}
+
+
+#highScorePlayer {
+  font-size: 200%;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+}
+
+#highScore {
+  font-size: 200%;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+}
+
+#gameName {
+  font-size: 450%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#head {
+  /* background: black; */
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 25px;
+  /* background-image: url("https://cdn4.iconfinder.com/data/icons/animal-2-3/36/131-512.png"); */
+  position: absolute;
+  z-index: 1;
+}
+
+#container {
+  width: 700px;
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  border: 1px white solid;
+  position: relative;
+  background-color: black;
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 0;
+}
+
+.body {
+  background: black;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tail {
+  background: black;
+  height: 50px;
+  width: 50px;
+  background-color: lightgreen;
+  border-radius: 0px;
+  position: absolute;
+  z-index: 1;
+}
