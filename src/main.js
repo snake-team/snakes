@@ -1,3 +1,17 @@
+const socket = io('http://localhost:3000');
+
+socket.on('playersData', function(data) {
+  console.log(data);
+})
+
+// socket.on('new player', function(data) {
+//   const head = new Head($('#board'))
+// })
+
+// console.log(socket);
+
+socket.emit('movement', 36);
+
 $(document).ready(function() {
   const head = new Head($('#board'));
   const apple = new Apple($('#board'));

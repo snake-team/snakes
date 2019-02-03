@@ -11,7 +11,8 @@
     "test": "jest --verbose"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
